@@ -158,9 +158,9 @@ const LayoutBase = props => {
                 </div>
               </div>
 
-              <!--div className='w-72 fixed left-0 bottom-0 z-20 bg-white'>
+              <div className='w-72 fixed left-0 bottom-0 z-20 bg-white'>
                 <Footer {...props} />
-              </div-->
+              </div>
             </div>
           )}
 
@@ -195,9 +195,9 @@ const LayoutBase = props => {
             </div>
 
             {/* 底部 */}
-            <!--div className='md:hidden'>
+            <div className='md:hidden'>
               <Footer {...props} />
-            </div-->
+            </div>
           </div>
 
           {/*  右侧侧推拉抽屉 */}
